@@ -1,13 +1,14 @@
 import React from "react";
 
+import { users } from "./data/users";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Here is where Content goes!</h1>
-        <h2>Moire content</h2>
+    <>
+      <header>
+        <h1>FaceScpace</h1>
       </header>
-    </div>
+    </>
   );
 }
 
