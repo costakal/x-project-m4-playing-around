@@ -19,5 +19,5 @@ const Members = () => {
 export default Members;
 
 const MembersTitle = styled.h2`
-  color: orange;
+  color: #cc5500;
 `;
