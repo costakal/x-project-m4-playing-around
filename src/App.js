@@ -1,13 +1,13 @@
 import React from "react";
 
-import { users } from "./data/users";
+import Header from "./components/Header";
+import Members from "./components/Members";
 
 function App() {
   return (
     <>
-      <header>
-        <h1>FaceScpace</h1>
-      </header>
+      <Header />
+      <Members />
     </>
   );
 }
