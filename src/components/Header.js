@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import styled from "styled-components";
 
 const Header = () => {
   return (
     <NavBar>
-      <h1>FaceSpace</h1>
+      <Link to={"/"}>
+        <h1>FaceSpace</h1>
+      </Link>
     </NavBar>
   );
 };
